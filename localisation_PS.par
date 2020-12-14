@@ -1,0 +1,42 @@
+base name	 	:Benchmark
+mesh file		:Model.msh
+topography file		:topo.msh
+rcvfile			:rcv.dat
+number of threads	:4
+arrival times		:Traveltimes_PS.dat
+Velocity P waves	:Vel_P.dat
+Velocity S waves	:Vel_S.dat
+known velocity points   :
+Hypo0			:Hinit.dat
+Time calibration	:CalibData_PS.dat
+number of iterations	:8
+num. iters. to get hypo.:15
+inverse velocity	:True
+inverse Vs/Vp           :False
+reloc.hypo.in 2 steps   :False
+use static corrections  :True
+Verbose                 :True
+Save Velocity           :last
+maximum stat. correction:0.05
+Vpmin			:1.5
+Vpmax			:8.
+Vsmin			:1.2
+Vsmax			:6.
+VpVs_min                :1.65
+VpVs_max                :2.05
+PAp			:1
+PAs			:1.
+Pvpvs                   :1.
+dVp max			:0.200
+dVs max			:0.200
+dx max			:0.005
+dt max			:0.005
+alpha			:1.
+lambda			:500
+Gamma			:1.
+Gamma_vpvs              :10
+stigma                  :0.001
+vertical smoothing      :0.75
+convergence Criterion	:0.0005
+uncertainty estm.       :1
+confidence level        :0.95

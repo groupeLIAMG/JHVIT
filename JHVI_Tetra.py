@@ -2863,8 +2863,7 @@ def jntHypoVelPS_T(obsData, calibdata, Vinit, cells, nodes, rcv, Hypo0,
                         if m == 0:
                             Pr[m, 0] = momnts[m] - np.sum(VsVp)
                         else:
-                            Pr[m, 0] = momnts[m] - \
-                                np.sum((VsVp - Gamma_mean)**(m + 1))
+                            Pr[m, 0] = momnts[m] - np.sum((VsVp - Gamma_mean)**(m + 1))
                 else:
                     Gamma_mean = (Velp / Vels).mean()
                     for m in np.arange(4):
@@ -2877,8 +2876,7 @@ def jntHypoVelPS_T(obsData, calibdata, Vinit, cells, nodes, rcv, Hypo0,
                         if m == 0:
                             Pr[m, 0] = momnts[m] - np.sum(Velp / Vels)
                         else:
-                            Pr[m, 0] = momnts[m] - \
-                                np.sum((Velp / Vels - Gamma_mean)**(m + 1))
+                            Pr[m, 0] = momnts[m] - np.sum((Velp / Vels - Gamma_mean)**(m + 1))
                 dPr2 = dPr.T @ dPr
             if par.verbose:
                 print('Assembling matrices and solving system\n')

@@ -9,10 +9,10 @@ from JHVI_Tetra import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
 from Disp_results import intersectionEll, insideEllipsoid
 import numpy as np
 import matplotlib.pyplot as plt
-import cmesh3d
+from ttcrpy import tmesh
 from mesh import MSHReader
 
-phase = 'P'  # or 'PS'
+phase = 'PS'  # or 'PS'
 
 if phase == 'P':
     results = jointHypoVel_T('localisation_P.par')
@@ -79,7 +79,10 @@ Z = Topo_data[:, 2].reshape([nx, ny])
 MESH = MSHReader('Model.msh')
 nodes = MESH.readNodes()
 cells = MESH.readTetraherdonElements()
-Mesh3D = cmesh3d.Mesh3Dcpp(nodes, cells, 1, 1, 0, 1, 0)
+Mesh3D = tmesh.Mesh3d(nodes, tetra=cells, method='DSPM', cell_slowness=0,
+                      n_threads=1, n_secondary=2, n_tertiary=1,
+                      process_vel=1, radius_factor_tertiary=2,
+                      translate_grid=1)
 for h in range(Hypocenters.shape[0]):
     pts = intersectionEll(Ucrties[h][1], Ucrties[h][2],
                           Ucrties[h][3], Hypocenters[h, 2:],

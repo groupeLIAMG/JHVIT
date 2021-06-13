@@ -76,11 +76,11 @@ def intersectionEll(axis1, axis2, axis3, center, points,
     points = np.column_stack((X_el, Y_el, Z_el))
     if meshObj is not None:
         for i in range(points.shape[0]):
-            if meshObj.CheckPoint(points[i, :]) is False:
+            if meshObj.is_outside(points[i].reshape([1, -1])):
                 P2 = points[i, :]
                 for _ in range(1000):
                     P2 = 0.1 * center + 0.9 * P2
-                    if meshObj.CheckPoint(P2) is True:
+                    if meshObj.is_outside(P2.reshape([1, -1])) is False:
                         points[i, :] = P2
                         break
     return points

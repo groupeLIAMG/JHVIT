@@ -5,7 +5,7 @@
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT%20v3-blue.svg)](./01_LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT%20v3-blue.svg)](./LICENSE.txt)
 
 
 [![Documentation Status](https://readthedocs.org/projects/JHVIT/badge/?version=latest)](https://ttcrpy.readthedocs.io/en/latest/?badge=latest)

@@ -5,6 +5,8 @@ Created on Mon Apr  6 22:53:34 2020
 
 @author: Maher Nasr
 """
+import sys
+sys.path.insert(0, '../src')
 from JHVI_Tetra import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
 from Disp_results import intersectionEll, insideEllipsoid
 import numpy as np
@@ -12,7 +14,7 @@ import matplotlib.pyplot as plt
 from ttcrpy import tmesh
 from mesh import MSHReader
 
-phase = 'PS'  # or 'PS'
+phase = 'P'  # or 'PS'
 
 if phase == 'P':
     results = jointHypoVel_T('localisation_P.par')
@@ -23,7 +25,7 @@ Hypocenters = results['Hypocenters']
 Ucrties = results['Uncertainties']
 TrueHypo = readEventsFiles('TrueHypo.dat')
 
-# colculate error
+# calculate error
 Error_T0 = np.abs(Hypocenters[:, 1] - TrueHypo[:, 1])
 Error_X = np.abs(Hypocenters[:, 2] - TrueHypo[:, 2])
 Error_Y = np.abs(Hypocenters[:, 3] - TrueHypo[:, 3])
@@ -39,13 +41,11 @@ for h in np.arange(Hypocenters.shape[0]):
     ΔT0 = np.abs(TrueHypo[h, 1] - Hypocenters[h, 1])
     cfd_intrvl = Ucrties[h][0]
     if cfd_intrvl < ΔT0:
-        print(
-            '\033[43m' +
+        print('\033[43m' +
             'Event N {0:d}: origin time is outside confidence interval'.format(
                 int(h + 1)) + '\033[0m')
     else:
-        print(
-            '\033[42m' +
+        print('\033[42m' +
             'Event N {0:d}: origin time is inside confidence interval'.format(
                 int(h + 1)) + '\033[0m')
 
@@ -56,13 +56,11 @@ for h in np.arange(Hypocenters.shape[0]):
     if insideEllipsoid(TrueHypo[h, 2:] * 1.e3, Hypocenters[h, 2:] * 1.e3,
                        Ucrties[h][1] * 1.e3, Ucrties[h][2] * 1.e3,
                        Ucrties[h][3] * 1.e3) is False:
-        print(
-            '\033[43m' +
+        print('\033[43m' +
             'Event N {0:d}: hypocenter is outside confidence ellipsoid'.format(
                 int(h + 1)) + '\033[0m')
     else:
-        print(
-            '\033[42m' +
+        print('\033[42m' +
             'Event N {0:d}: hypocenter is inside confidence ellipsoid'.format(
                 int(h + 1)) + '\033[0m')
 
@@ -94,13 +92,8 @@ for h in range(Hypocenters.shape[0]):
                   Hypocenters[h, 3] + 0.006), fontsize=6, color='g')
 plt.plot(Hypocenters[:, 2], Hypocenters[:, 3], '.g', markersize=1)
 plt.xlim([305.25, 305.55])
-contours = plt.contour(
-    X,
-    Y,
-    (1.e3 * Z).astype(int),
-    30,
-    colors='k',
-    linestyles='-')
+contours = plt.contour(X, Y, (1.e3 * Z).astype(int),
+                       30, colors='k', linestyles='-')
 plt.clabel(contours, inline=True, fontsize=6, colors='b', fmt='%1.0f')
 plt.grid(True)
 plt.xlabel('X')

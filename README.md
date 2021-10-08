@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/groupeLIAMG/JHVIT/blob/images/JHVIT_Logo.gif)
+![Logo](https://github.com/groupeLIAMG/JHVIT/blob/main/images/JHVIT_Logo.gif)
 ============================
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)

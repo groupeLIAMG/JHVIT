@@ -69,11 +69,11 @@ Notes:
 - jntHyposlowPS_T : Joint hypocenter-velocity inversion of P- and S-wave data,
   parametrized via the slowness models.
 
--jointHypoVel_T : Joint hypocenter-velocity inversion of P wave data.
+- jointHypoVel_T : Joint hypocenter-velocity inversion of P wave data.
  Input data and inversion parameters are downloaded automatically from
  external text files.
 
--jointHypoVelPS_T : Joint hypocenter-velocity inversion of P- and S-wave data.
+- jointHypoVelPS_T : Joint hypocenter-velocity inversion of P- and S-wave data.
  Input data and inversion parameters are downloaded automatically
  from external text files.
 

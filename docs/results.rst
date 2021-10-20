@@ -30,9 +30,9 @@ The red outlines give the projections of the confidence ellipsoids on the horizo
    :alt: truevel
    :align: center
 
-.. image:: images/VelModel5.*
+.. image:: images/VelModel.*
    :width: 400px
-   :alt: vel5%
+   :alt: vel
    :align: center
 
 Comparison between the true velocity model and the model obtained by inversion for a synthetic seismic dataset with 5% of gaussian noise.

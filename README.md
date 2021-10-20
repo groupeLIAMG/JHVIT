@@ -1,5 +1,4 @@
-
-![Logo]<img src="https://github.com/groupeLIAMG/JHVIT/blob/main/images/JHVIT_Logo.gif" width="500" height="500">
+<img src="https://github.com/groupeLIAMG/JHVIT/blob/main/images/JHVIT_Logo.gif" width="500" height="500">
 ============================
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)

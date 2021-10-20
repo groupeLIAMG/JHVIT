@@ -1,5 +1,5 @@
 *********************************
-Documentation for the python code
+Code documentation 
 *********************************
 
 Here is the Documentation of the main functions callable with  ``JHVIT``.

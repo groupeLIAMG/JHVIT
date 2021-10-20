@@ -26,9 +26,8 @@ text following the sharp symbol (#) by the proper values (remove the symbol # al
 Parameter file template for P-wave data inversion.
 
 .. image:: images/P_S_Param_File.*
-  :width: 700px
-  :alt: P- and S-wave file
-  :align: center
+  :width: 600px
+  :alt: PandSwave file
 
 Parameter file template for P- and S-wave data inversion.
 

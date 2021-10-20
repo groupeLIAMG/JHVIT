@@ -1,6 +1,8 @@
-********************
+.. _example:
+
+###############
 Example
-********************
+###############
 
 ``JHVIT`` can automatically read the inversion parameters and data from text files.
 We recommend to use this feature in order to store this information for future verifications or reuse.

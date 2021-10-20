@@ -1,8 +1,8 @@
 .. _results:
 
-********************
+###############
 Results
-********************
+###############
 
 If no bugs occur, ``JHVIT`` will return a python dictionary containing an estimation of:
 - Hypocenter coordinates and their origin times.

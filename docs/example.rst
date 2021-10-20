@@ -26,7 +26,7 @@ text following the sharp symbol (#) by the proper values (remove the symbol # al
 Parameter file template for P-wave data inversion.
 
 .. image:: images/P_S_Param_File.*
-  :width: 2000px
+  :width: 700px
   :alt: P- and S-wave file
   :align: center
 
@@ -74,14 +74,14 @@ data must be organized in 5 columns: the 1st column corresponds to shot indices 
 positions of calibration shots. A sixth column would be added if both P and S waves are inverted in order to specify seismic phase of each calibration shot.
 
 .. image:: images/CalibDataP.*
-   :width: 900px
+   :width: 600px
    :alt: P-data
 
 
 Template of calibration data file for P-wave inversion.
 
 .. image:: images/CalibDataPS.*
-  :width: 1000px
+  :width: 600px
   :alt: PS-data
 
 Template of calibration data file for P- and S-wave inversion.

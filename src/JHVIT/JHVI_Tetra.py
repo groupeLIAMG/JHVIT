@@ -26,10 +26,12 @@ Join Hypocenter-Velocity Inversion on Tetrahedral meshes (JHVIT).
      6-jointHypoVelPS_T : Joint hypocenter-velocity inversion of P- and S-wave data.
        Input data and inversion parameters are downloaded automatically
        from external text files.
+
 Notes:
      - The package ttcrpy must be installed in order to perform the raytracing step.
        This package can be downloaded from: https://ttcrpy.readthedocs.io/en/latest/
      - To prevent bugs, it would be better to use python 3.7
+
 Created on Sat Sep 14 2019
 @author: maher nasr
 """
@@ -1317,8 +1319,8 @@ def jntHypoVel_T(data, caldata, Vinit, cells, nodes, rcv, Hypo0,
     Joint hypocenter-velicoty inversion from P wave arrival time data
     parametrized using the velocity model.
 
-     Parameters
-     ----------
+    Parameters
+    ----------
      data : np.ndarray, shape(arrival time number, 3)
           Arrival times and corresponding receivers for each event..
      caldata : np.ndarray, shape(number of calibration shots, 3)
@@ -1761,8 +1763,8 @@ def jntHyposlow_T(data, caldata, Vinit, cells, nodes, rcv, Hypo0,
     Joint hypocenter-velicoty inversion from P wave arrival time data
     parametrized using the slowness model.
 
-     Parameters
-     ----------
+    Parameters
+    ----------
      data : np.ndarray, shape(arrival time number, 3)
           Arrival times and corresponding receivers for each event.
      caldata : np.ndarray, shape(number of calibration shots, 6)
@@ -1786,8 +1788,8 @@ def jntHyposlow_T(data, caldata, Vinit, cells, nodes, rcv, Hypo0,
      basename : string, optional
           The filename used to save the output files. The default is 'Slowness'.
 
-     Returns
-     -------
+    Returns
+    -------
      output : python dictionary
           It contains the estimated hypocenter coordinates and their origin times,
           static correction values, velocity model, convergence states,

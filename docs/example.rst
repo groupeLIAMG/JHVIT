@@ -53,13 +53,13 @@ use the same column labels to store their data in order to avoid bugs. The first
 
 .. image:: images/Data_P.*
    :width: 300px
-   :alt: P-data
+   :alt: Pdata
 
 Data file template for P-wave inversion.
 
 .. image:: images/Data_PS.*
   :width: 415px
-  :alt: PS-data
+  :alt: PSdata
 
 
 Data file template for P- and S-wave inversion. We suppose herein a dataset with 3 seismic events recorded in 16 receivers each one.
@@ -74,14 +74,14 @@ positions of calibration shots. A sixth column would be added if both P and S wa
 
 .. image:: images/CalibDataP.*
    :width: 600px
-   :alt: P-data
+   :alt: PCaldata
 
 
 Template of calibration data file for P-wave inversion.
 
 .. image:: images/CalibDataPS.*
   :width: 600px
-  :alt: PS-data
+  :alt: PSCaldata
 
 Template of calibration data file for P- and S-wave inversion.
 
@@ -93,7 +93,7 @@ by the coordinates X, Y and Z of each one written at the rate of on receiver per
 
 .. image:: images/receivers.*
    :width: 300px
-   :alt: P-data
+   :alt:Rcv
 
 Example of a receiver file. Receiver coordinates are given in the MTM system.
 
@@ -110,6 +110,6 @@ X, Y and Z (spatial coordinates). Note that the initial positions of hypocenters
 
 .. image:: images/Hypo_init.*
    :width: 500px
-   :alt: P-data
+   :alt: Hypo
 
 Example of initial hypocenter file.

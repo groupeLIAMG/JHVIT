@@ -93,7 +93,7 @@ by the coordinates X, Y and Z of each one written at the rate of on receiver per
 
 .. image:: images/receivers.*
    :width: 300px
-   :alt:Rcv
+   :alt: Rcv
 
 Example of a receiver file. Receiver coordinates are given in the MTM system.
 

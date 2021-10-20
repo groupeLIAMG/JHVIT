@@ -1,7 +1,8 @@
 
 <p align="center"> <img src="https://github.com/groupeLIAMG/JHVIT/blob/main/images/JHVIT_Logo.gif" width="400" height="400">
 </p>
-============================
+
+##
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)
 

@@ -30,7 +30,7 @@ The red outlines give the projections of the confidence ellipsoids on the horizo
    :alt: truevel
    :align: center
 
-.. image:: images/VelModel5%.*
+.. image:: images/VelModel5.*
    :width: 400px
    :alt: vel5%
    :align: center

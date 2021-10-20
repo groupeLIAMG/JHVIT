@@ -6,7 +6,7 @@
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)
 [![License: MIT](https://img.shields.io/badge/License-MIT%20v3-blue.svg)](./LICENSE.txt)
-[![Documentation Status](https://readthedocs.org/projects/maher-nasr/badge/?version=latest)](https://maher-nasr.readthedocs.io/en/latest/)
+[![Documentation Status](https://jhvit.readthedocs.io/en/latest/?badge=lates)](https://jhvit.readthedocs.io/en/latest/)
 
 
 JHVIT : Joint Hypocenter Velocity Inversion on Tetrahedral meshes

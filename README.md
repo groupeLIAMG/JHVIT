@@ -85,7 +85,8 @@ both P- and S-wave data.
 ```
 
 @Thesis{Block91,
-  Title                    = {Joint hypocenter-velocity inversion of local earthquake arrival time data in two geothermal regions},
+  Title                    = {Joint hypocenter-velocity inversion of local earthquake arrival
+                              time data in two geothermal regions},
   Author                   = {Lisa Vectoria Block},
   Year                     = {1991},
   Number of Pages          = {448},
@@ -96,8 +97,10 @@ both P- and S-wave data.
 }
 
 @article{Block94,
-  author                   = {Lisa V. Block, C. H. Cheng, Michael C. Fehler, and W. Scott Phillips},
-  title                    = {Seismic imaging using microearthquakes induced by hydraulic fracturing},
+  author                   = {Lisa V. Block, C. H. Cheng, Michael C. Fehler, and
+                              W. Scott Phillips},
+  title                    = {Seismic imaging using microearthquakes induced by hydraulic
+                              fracturing},
   journal                  = {Geophysics},
   year                     = {1994},
   volume                   = {59},
@@ -108,7 +111,8 @@ both P- and S-wave data.
 }
 
 @Thesis{Giroux01,
-  Title                    = {Auscultation des barrages en béton par écoute microsismique: détectabilité et localisation des événements},
+  Title                    = {Auscultation des barrages en béton par écoute microsismique:
+                              détectabilité et localisation des événements},
   Author                   = {Bernard Giroux},
   Year                     = {2001},
   Number of Pages          = {268},
@@ -120,12 +124,14 @@ both P- and S-wave data.
 
 @article{Nasr18,
   author                   = {Nasr, Maher and Giroux, Bernard and Dupuis, J. Christian},
-  title                    = {A hybrid approach to compute seismic travel times in three-dimensional tetrahedral meshes},
+  title                    = {A hybrid approach to compute seismic travel times in
+                              three-dimensional tetrahedral meshes},
   journal                  = {Geophysical Prospecting},
   volume                   = {68},
   number                   = {4},
   pages                    = {1291-1313},
-  keywords                 = {Travel time, Seismic modelling, Ray tracing, Seismics, Computing aspects},
+  keywords                 = {Travel time, Seismic modelling, Ray tracing, Seismics,
+                              Computing aspects},
   doi                      = {10.1111/1365-2478.12930},
   url                      = {https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.12930},
   eprint                   = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2478.12930},
@@ -133,14 +139,16 @@ both P- and S-wave data.
 
 @article{Nasr21,
   author                   = {Nasr, Maher and Giroux, Bernard and Dupuis, J. Christian},
-  title                    = {Python package for 3D joint hypocenter-velocity inversion on tetrahedral
-                              meshes: Parallel implementation and practical considerations},
+  title                    = {Python package for 3D joint hypocenter-velocity inversion on
+                              tetrahedral meshes: Parallel implementation and practical
+                              considerations},
   journal                  = {Computational Geosciences},
   volume                   = {n/a},
   number                   = {n/a},
   pages                    = {n/a},
-  keywords                 = {joint hypocenter velocity inversion; hypocenter location; passive seismic;
-                              computational seismology; parallelism; tetrahedral meshes},
+  keywords                 = {joint hypocenter velocity inversion; hypocenter location;
+                              passive seismic; computational seismology; parallelism;
+                              tetrahedral meshes},
 }
 
 ```

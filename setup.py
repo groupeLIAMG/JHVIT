@@ -12,7 +12,7 @@ setuptools.setup(
     description="Code to perform seismic hypocenter location on tetrahedral meshes",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/groupeLIAMG/JHVIT",
+    url="https://github.com/groupeLIAMG/JHVIT.git",
     keywords = ["joint hypocenter velocity inversion", "hypocenter location",
                 "passive seismic", "tetrahedral meshes"],
     classifiers=[

@@ -34,7 +34,7 @@ engineering projects.
 The package is written in Python, uses an optimized c++ raytracing code wrapped in
 Cython and supports parallel computing.
 
-Documentation is available here:
+Documentation is available here: https://jhvit.readthedocs.io/en/latest/ 
 
 ## Installation and Requirements
 

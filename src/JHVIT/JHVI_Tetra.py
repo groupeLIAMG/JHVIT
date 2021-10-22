@@ -43,7 +43,7 @@ import scipy.stats as scps
 import re
 import sys
 import copy
-from mesh import MSHReader
+from JHVIT.mesh import MSHReader
 from ttcrpy import tmesh
 from multiprocessing import Pool, cpu_count, current_process, Manager
 import multiprocessing as mp

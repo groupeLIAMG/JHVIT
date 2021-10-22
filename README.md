@@ -1,5 +1,5 @@
 
-<p align="center"> <img src="https://github.com/groupeLIAMG/JHVIT/blob/main/images/logo.gif" width="400" height="400">
+<p align="center"> <img src="https://github.com/groupeLIAMG/JHVIT/blob/main/images/logo.png" width="400" height="400">
 </p>
 
 ##

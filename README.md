@@ -1,4 +1,4 @@
-.. image::https://github.com/groupeLIAMG/JHVIT/raw/main/images/logo.png
+![Logo](https://github.com/groupeLIAMG/JHVIT/blob/main/images/logo.png)
 
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)

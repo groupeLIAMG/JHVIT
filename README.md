@@ -1,5 +1,5 @@
-![Logo](https://github.com/groupeLIAMG/JHVIT/blob/main/images/logo.png)
-##
+![Logo](https://github.com/groupeLIAMG/ttcr/blob/master/images/ttcrpy_logo.png)
+============================
 
 [![pypi](https://img.shields.io/pypi/v/JHVIT.svg)](https://pypi.org/project/JHVIT/)
 [![License: MIT](https://img.shields.io/badge/License-MIT%20v3-blue.svg)](./LICENSE.txt)

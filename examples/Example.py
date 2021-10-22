@@ -5,14 +5,13 @@ Created on Mon Apr  6 22:53:34 2020
 
 @author: Maher Nasr
 """
-import sys
-sys.path.insert(0, '../src')
-from JHVI_Tetra import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
+
+from JHVI import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
 from Disp_results import intersectionEll, insideEllipsoid
 import numpy as np
 import matplotlib.pyplot as plt
 from ttcrpy import tmesh
-from mesh import MSHReader
+from JHVI import MSHReader
 
 phase = 'P'  # or 'PS'
 

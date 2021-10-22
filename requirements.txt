@@ -1,5 +1,7 @@
+setuptools
+cython
 numpy>=1.20.1
 scipy
 vtk
-ttcrpy>=1.1.8
+ttcrpy
 

@@ -6,12 +6,12 @@ Created on Mon Apr  6 22:53:34 2020
 @author: Maher Nasr
 """
 
-from JHVI import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
+from JHVIT import jointHypoVel_T, jointHypoVelPS_T, readEventsFiles
 from Disp_results import intersectionEll, insideEllipsoid
 import numpy as np
 import matplotlib.pyplot as plt
 from ttcrpy import tmesh
-from JHVI import MSHReader
+from JHVIT import MSHReader
 
 phase = 'P'  # or 'PS'
 

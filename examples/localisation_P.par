@@ -6,18 +6,18 @@ number of threads	:3
 arrival times		:Traveltimes_P.dat
 Velocity P waves		:Vel_P.dat
 Velocity S waves		:Vel_S.dat
-known velocity points   :
+known velocity points     :
 Hypo0			:Hinit.dat
-Time calibration	:CalibData_P.dat
+Time calibration		:CalibData_P.dat
 number of iterations	:10
 num. iters. to get hypo.	:12
 inverse velocity	:True
-inverse Vs/Vp           :False
-reloc.hypo.in 2 steps   :False
-use static corrections  :True
-Verbose                 :True
-Save Velocity           :last
-maximum stat. correction:0.05
+inverse Vs/Vp           	:False
+reloc.hypo.in 2 steps   	:False
+use static corrections  	:True
+Verbose                	:True
+Save Velocity          	 :last
+maximum stat. correction	:0.05
 Vpmin			:1.5
 Vpmax			:8.
 Vsmin			:1.2
@@ -33,5 +33,5 @@ lambda			:1.e4
 Gamma			:10.
 vertical smoothing      	:0.75
 convergence Criterion	:0.0005
-uncertainty estm.       :True
-confidence level        :0.95
+uncertainty estm.       	:True
+confidence level        	:0.95

@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
 
     name="JHVIT",
-    version="0.1.1",
+    version="0.0.1",
     author="Maher Nasr",
     author_email="Maher.Nasr@inrs.ca",
     description="Code to perform seismic hypocenter location on tetrahedral meshes",
@@ -24,7 +24,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires= "==3.7",
+    python_requires= "==3.7.*",
     install_requires=["numpy>=1.20.1",
                       "scipy",
                       "vtk",

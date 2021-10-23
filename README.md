@@ -34,7 +34,7 @@ engineering projects.
 The package is written in Python, uses an optimized c++ raytracing code wrapped in
 Cython and supports parallel computing.
 
-Documentation is available here: https://jhvit.readthedocs.io/en/latest/ 
+Documentation is available here: https://jhvit.readthedocs.io/en/latest/
 
 ## Installation and Requirements
 
@@ -76,7 +76,8 @@ Notes:
 
 ## Examples
 
-Two examples of hypocenter relocation using the JHVIT are presented (see : ).
+Two examples of hypocenter relocation using the JHVIT are presented (see 
+https://github.com/groupeLIAMG/JHVIT/blob/main/examples/Example.py ).
 The first example involves the inversion of P wave data while the second uses
 both P- and S-wave data.
 

@@ -49,6 +49,7 @@ This package can be installed from: https://pypi.org/project/ttcrpy/
 
 Notes:
 - It is highly recommended to upgrade numpy package before installing ttcrpy.
+- We also recommend to install the vtk library with pip.
 
 ## Callable functions
 
@@ -76,7 +77,7 @@ Notes:
 
 ## Examples
 
-Two examples of hypocenter relocation using the JHVIT are presented (see 
+Two examples of hypocenter relocation using the JHVIT are presented (see
 https://github.com/groupeLIAMG/JHVIT/blob/main/examples/Example.py ).
 The first example involves the inversion of P wave data while the second uses
 both P- and S-wave data.

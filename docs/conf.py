@@ -26,7 +26,7 @@ copyright = '2021, Maher Nasr'
 author = 'Maher Nasr'
 
 # The full version, including alpha/beta/rc tags
-release = get_distribution('JHVIT').version
+release = '0.0.14'
 
 master_doc = 'index'
 # -- General configuration ---------------------------------------------------

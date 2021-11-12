@@ -4,4 +4,4 @@ numpy>=1.20.1
 scipy
 vtk
 ttcrpy
-
+numba
